@@ -1,0 +1,5 @@
+[package]
+name = "finished"
+version = "0.1.0"
+authors = ["CNife <CNife@vip.qq.com>"]
+edition = "2018"
