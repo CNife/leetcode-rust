@@ -8,5 +8,4 @@ edition = "2018"
 members = ["finished", "utils"]
 
 [dependencies.utils]
-version = "^0.1.0"
 path = "./utils"
