@@ -14,6 +14,7 @@ pub mod binary_watch;
 pub mod bulls_and_cows;
 pub mod burst_balloons;
 pub mod can_place_flowers;
+pub mod clumsy_factorial;
 pub mod coin_change;
 pub mod coin_lcci;
 pub mod combination_sum;
