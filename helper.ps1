@@ -1,8 +1,9 @@
 $ErrorActionPreference = 'Stop'
 
 function Invoke-CargoTest {
-    Set-Location $PSScriptRoot
+    Push-Location $PSScriptRoot
     cargo test --package finished
+    Pop-Location
 }
 
 $LibRS = "$PSScriptRoot\src\lib.rs"

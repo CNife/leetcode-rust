@@ -86,6 +86,7 @@ pub mod letter_tile_possibilities;
 pub mod lfu_cache;
 pub mod license_key_formatting;
 pub mod longest_common_prefix;
+pub mod longest_common_subsequence;
 pub mod longest_consecutive_sequence;
 pub mod longest_continuous_increasing_subsequence;
 pub mod longest_harmonious_subsequence;
