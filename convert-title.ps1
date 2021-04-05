@@ -10,4 +10,6 @@ if ($Title -match '_(i{1,3})$')
 $Title = $Title -replace '_iv$', '_4'
 $Title = $Title -replace '_v$', '_5'
 
-Write-Host "mod $Title;"
+$ResultLine = "mod $Title;"
+Add-Content -Path './src/lib.rs' -Value $ResultLine
+Write-Host $ResultLine
