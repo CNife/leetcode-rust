@@ -22,7 +22,13 @@ pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
 #[test]
 fn test() {
     let tests = vec![
-        (vec![1, 2, 3, 0, 0, 0], 3, vec![2, 5, 6], 3, vec![1, 2, 2, 3, 5, 6]),
+        (
+            vec![1, 2, 3, 0, 0, 0],
+            3,
+            vec![2, 5, 6],
+            3,
+            vec![1, 2, 2, 3, 5, 6],
+        ),
         (vec![1], 1, vec![], 0, vec![1]),
     ];
     for (mut nums1, m, mut nums2, n, want) in tests {

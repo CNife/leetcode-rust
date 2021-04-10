@@ -1,9 +1,6 @@
 use std::cmp::max;
 
-pub fn longest_common_subsequence(
-    text1: impl AsRef<str>,
-    text2: impl AsRef<str>,
-) -> i32 {
+pub fn longest_common_subsequence(text1: impl AsRef<str>, text2: impl AsRef<str>) -> i32 {
     let b1 = text1.as_ref().as_bytes();
     let b2 = text2.as_ref().as_bytes();
     let n1 = b1.len();
@@ -24,11 +21,7 @@ pub fn longest_common_subsequence(
 
 #[test]
 fn test() {
-    let tests = vec![
-        ("abcde", "ace", 3),
-        ("abc", "abc", 3),
-        ("abc", "def", 0),
-    ];
+    let tests = vec![("abcde", "ace", 3), ("abc", "abc", 3), ("abc", "def", 0)];
     for (text1, text2, want) in tests {
         assert_eq!(longest_common_subsequence(text1, text2), want);
     }
