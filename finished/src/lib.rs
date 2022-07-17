@@ -1,5 +1,6 @@
 pub mod add_strings;
 pub mod arranging_coins;
+pub mod array_nesting;
 pub mod as_far_from_land_as_possible;
 pub mod available_captures_for_rook;
 pub mod base_7;
