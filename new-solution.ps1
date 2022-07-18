@@ -11,5 +11,8 @@ $Title = $Title -replace '_iv$', '_4'
 $Title = $Title -replace '_v$', '_5'
 
 $ResultLine = "mod $Title;"
-Add-Content -Path './src/lib.rs' -Value $ResultLine
-Write-Host $ResultLine
+Add-Content -Path "$PSScriptRoot/src/lib.rs" -Value $ResultLine
+Set-Content -Path "$PSScriptRoot/src/$Title.rs" -Value ''
+
+clion $PSScriptRoot "$PSScriptRoot/src/lib.rs"
+clion $PSScriptRoot "$PSScriptRoot/src/$Title.rs"
