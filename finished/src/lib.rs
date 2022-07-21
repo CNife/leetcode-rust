@@ -152,6 +152,7 @@ pub mod relative_sort_array;
 pub mod remove_all_adjacent_duplicates_in_string;
 pub mod remove_duplicates_from_sorted_array_2;
 pub mod remove_invalid_parentheses;
+pub mod repeated_dna_sequences;
 pub mod repeated_string_match;
 pub mod repeated_substring_pattern;
 pub mod restore_ip_addresses;
