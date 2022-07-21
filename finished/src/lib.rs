@@ -164,6 +164,7 @@ pub mod search_in_rotated_sorted_array_2;
 pub mod search_in_rotated_sorted_array;
 pub mod set_mismatch;
 pub mod set_zeroes;
+pub mod shift_2d_grid;
 pub mod shortest_completing_word;
 pub mod shortest_distance_to_a_character;
 pub mod simplify_path;
