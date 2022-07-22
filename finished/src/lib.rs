@@ -163,6 +163,7 @@ pub mod rotated_digits;
 pub mod search_a_2d_matrix;
 pub mod search_in_rotated_sorted_array_2;
 pub mod search_in_rotated_sorted_array;
+pub mod set_intersection_size_at_least_two;
 pub mod set_mismatch;
 pub mod set_zeroes;
 pub mod shift_2d_grid;
